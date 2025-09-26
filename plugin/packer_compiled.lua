@@ -169,6 +169,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gethin/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/Users/gethin/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
   }
 }
 
