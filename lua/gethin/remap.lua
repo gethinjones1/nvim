@@ -33,3 +33,6 @@ vim.keymap.set('n', '<C-k>', '<C-w>k')
 
 vim.opt.clipboard = "unnamedplus"
 vim.keymap.set("n", "<leader>a", "ggVG")
+vim.keymap.set("n", "DD", '"+dd', { noremap = true, silent = true })
+-- dd deletes without yanking (uses the black hole register)
+vim.keymap.set("n", "dd", '"_dd', { noremap = true, silent = true })
