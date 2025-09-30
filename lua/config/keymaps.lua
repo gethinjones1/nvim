@@ -12,7 +12,7 @@ map("n", "<leader>pv", vim.cmd.Ex, { desc = "Open netrw (project view)" })
 map("n", "<leader>a", "ggVG", silent)
 
 -- Terminal: open bottom split
-map("n", "<leader>t", ":botright split | terminal<CR>", { desc = "Terminal (bottom split)", silent = true })
+map("n", "<leader>t", ":botright split | terminal<CR> | i", { desc = "Terminal (bottom split)", silent = true })
 -- Escape to normal-mode from terminal
 map("t", "<Esc>", [[<C-\><C-n>]], silent)
 
